@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>velocity</title>
+    <link rel="stylesheet" href="./files/app.css">
+    <link rel="stylesheet" href="./files/toastr.min.css">
+    <div class="space">
+    </div>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center; /* Center-aligns the content */
+            background-image: url('/img/lost.jpg');
+        }
+        .alert-primary {
+            color: #000;
+            background-color: #d1ecf1;
+            border-color: #bee5eb;
+        }
+        .main {
+            text-align: center;
+        }
+        .separator {
+            margin: 13px 0; /* Add vertical spacing between elements */
+            color: #000;
+            display: flex; /* Use flexbox to center the content */
+            justify-content: center; /* Center-align the content horizontally */
+            align-items: center; /* Center-align the content vertically (if needed) */
+        }
+        .separator a {
+            margin: 0 10px; /* Add spacing between links */
+            text-decoration: none;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <script src="./files/jquery.min.js"></script>
+
+    <div class="main">
+        <a class="center">r u lost?</a>
+        <div class="separator">
+            <a href="./index.php">go back</a>
+        </div>
+    </div>
+
+</body>
+</html>

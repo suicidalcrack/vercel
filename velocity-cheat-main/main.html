@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>velocity</title>
+    <link rel="stylesheet" href="./files/app.css">
+    <link rel="stylesheet" href="./files/particles.css">
+    <link rel="stylesheet" href="./files/toastr.min.css">
+    <div class="space">
+        <div class="particle"></div>
+    </div>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center; /* Center-aligns the content */
+        }
+        .toast {
+            background: black;
+            box-shadow: none !important;
+        }
+        .toast-error {
+            border: 1px solid red;
+        }
+        .toast-success {
+            border: 1px solid red;
+        }
+        .alert {
+            color: #000;
+            background-color: #f8d7da;
+            border-color: #f5c6cb;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .alert-primary {
+            color: #000;
+            background-color: #d1ecf1;
+            border-color: #bee5eb;
+        }
+        .main {
+            text-align: center;
+        }
+        .separator {
+            margin: 13px 0; /* Add vertical spacing between elements */
+            color: #535353;
+            display: flex; /* Use flexbox to center the content */
+            justify-content: center; /* Center-align the content horizontally */
+            align-items: center; /* Center-align the content vertically (if needed) */
+        }
+        .separator a {
+            margin: 0 10px; /* Add spacing between links */
+            text-decoration: none;
+            color: #535353;
+        }
+    </style>
+</head>
+<body>
+    <script src="./files/jquery.min.js"></script>
+
+    <div class="main">
+        <a class="center">velocity</a>
+        <div class="separator">
+            <a href="./login">login</a> | <a href="register">register</a>
+        </div>
+    </div>
+
+</body>
+</html>

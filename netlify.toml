@@ -1,0 +1,15 @@
+[[redirects]]
+  from = ""
+  to = "/main"
+  status = 301
+  force = false
+  query = {path = ":path"} #  apply this rule for /old-path?path=example
+  conditions = {Language = ["en","es"], Country = ["US"]}
+  
+  [[redirects]]
+  from = "/main"
+  to = "/login"
+  status = 301
+  force = false
+  query = {path = ":path"} #  apply this rule for /old-path?path=example
+  conditions = {Language = ["en","es"], Country = ["US"]}
